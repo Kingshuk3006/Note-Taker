@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* styling navbar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(43, 38, 38);
+    height: 4rem;
+    align-items: center;
+    width: 100%;
+}
+#note-taker{
+    color: honeydew;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+#search-input{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Questrial', sans-serif;
+}
+#search-btn{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(240, 218, 27);
+    border: 2px solid rgba(0, 0, 0, 0.911);
+    margin-right:2rem ;
+    font-family: 'Signika Negative', sans-serif;
+}
+.note-content{
+    margin-left: 11rem;
+    margin-top: 3rem;
+}
+#note-heading{
+    margin-top: 3rem;
+    margin-left: 11rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: 'Signika Negative', sans-serif;
+}
+#add-note-text{
+    margin-left: 11rem;
+    font-size: 1.3rem;
+    padding: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    border-radius: 8px;
+    font-family: 'Questrial', sans-serif;
+}
+#add-note-text, #search-input:focus{
+    outline: 0px;
+}
+#save-btn{
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    width: 8rem;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 218, 27);
+    border: 2px solid rgba(19, 19, 18, 0.39);
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+
+}
+#your-notes-heading{
+    margin-left: 11rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.note{
+    width: 15rem;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    text-align: center;
+    padding: 1.5rem;
+    text-align: justify;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    margin-bottom: 3.5rem;
+    font-family: 'Questrial', sans-serif;
+}
+.no-note{
+    font-size: 1.5rem;
+    font-family: 'Signika Negative', sans-serif;
+    margin: 5rem 11rem 5rem 0;
+    text-align: center;
+}
+#content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+.note-heading{
+    padding-bottom: 0.6rem;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+.note-text{
+    margin-top: 0.5rem;
+}
+.delete-note{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(240, 218, 27);
+    border: 1px solid rgb(19, 19, 18);
+    margin-right:2rem ;
+    margin-top: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+}
